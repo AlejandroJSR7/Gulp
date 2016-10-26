@@ -4,6 +4,7 @@ var uglify = require('gulp-uglify');
 var pump = require('pump');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
+var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 // Static Server + watching scss/html files
@@ -39,6 +40,10 @@ gulp.task('sass', function(){
     return gulp.src('scss/**/*.scss')
         .pipe(sass())
         .pipe(cssnano())
+        .pipe(autoprefixer({
+            browsers: ['last 5 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.stream());
 });
