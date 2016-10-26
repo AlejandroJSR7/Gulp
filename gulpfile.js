@@ -5,6 +5,7 @@ var pump = require('pump');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 var autoprefixer = require('gulp-autoprefixer');
+var htmlmin = require('gulp-htmlmin')
 var browserSync = require('browser-sync').create();
 
 // Static Server + watching scss/html files
@@ -17,6 +18,13 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("app/js/*.js", ['compress']);
     gulp.watch("scss/**/*.scss", ['sass']);
     gulp.watch("app/*.html").on('change', browserSync.reload);
+    gulp.watch('./*.html', ['minificar']);
+});
+
+gulp.task('minificar', function() {
+    return gulp.src('./*.html')
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('app/'));
 });
 
 gulp.task('imagemin', () =>
