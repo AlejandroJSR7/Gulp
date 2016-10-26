@@ -47,3 +47,4 @@ bower_components/*
 ######################
 .sass-cache/
 *.css.map
+app/css/*.css
