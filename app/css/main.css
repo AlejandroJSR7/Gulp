@@ -1,2 +1,12 @@
 body {
-  background-color: #34495e; }
+  background-color: #34495e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100; }
+  body p {
+    color: #ffffff; }
+
+a {
+  background: #ffffff;
+  color: #34495e;
+  display: inline-block;
+  padding: 2px 5px; }
