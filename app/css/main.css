@@ -1,1 +1,70 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");@import url("https://fonts.googleapis.com/css?family=Indie+Flower");@import url("https://fonts.googleapis.com/css?family=Cinzel");body{background-color:#ecf0f1;font-family:Open Sans,sans-serif}.relevant{background-color:#34495e;color:#ecf0f1;padding:20px}a{color:#f1c40f}h1,h2,h3{font-family:Cinzel,serif}h1{font-size:6em}h2{font-size:3em}h3{font-size:2em}p{font-size:1em}i{font-family:Indie Flower,cursive}body{box-sizing:border-box}p{margin:0 0 10px}.box{margin:0 auto;width:80%}.txt-center{text-align:center}.relevant{margin:0 auto;width:80%}h1,h2,h3{margin:0 auto 5px;padding:0}a{text-decoration:none}a:hover{text-decoration:underline}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+header {
+  background-color: white; }
+  header nav ul {
+    margin: 0 auto;
+    text-align: center; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        color: #2ecc71;
+        display: inline-block;
+        line-height: 150px;
+        padding: 0 35px;
+        text-decoration: none;
+        text-align: center; }
+        header nav ul li a:hover {
+          background: #9b59b6;
+          color: #ffffff;
+          text-decoration: none;
+          box-shadow: inset 0 -5px 0 0 #ecf0f1; }
+
+body {
+  background-color: #ecf0f1;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  color: #f1c40f; }
+
+h1, h2, h3 {
+  font-family: "Cinzel", serif; }
+
+h1 {
+  font-size: 6em; }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2em; }
+
+p {
+  font-size: 1em; }
+
+i {
+  font-family: "Indie Flower", cursive; }
+
+body {
+  box-sizing: border-box;
+  margin: 0; }
+
+p {
+  margin: 0 0 10px; }
+
+.box {
+  margin: 0 auto;
+  width: 80%; }
+
+.txt-center {
+  text-align: center; }
+
+h1, h2, h3 {
+  margin: 0 auto 5px;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
