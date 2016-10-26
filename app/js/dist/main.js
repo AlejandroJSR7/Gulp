@@ -1,1 +1,1 @@
-!function(){function o(o){return o}function n(o){console.info(o,", un saludo desde DOPodcast")}n(o("Alejandro")),console.log("Good bye")}();
+!function(){function n(n){return n}function o(n){console.info(n,", un saludo desde DOPodcast")}o(n("AlejandroJSR7"))}();
