@@ -10,6 +10,7 @@
   "author": "AlejandroJSR7 <AlejandroJSR7@Gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
   }
 }
