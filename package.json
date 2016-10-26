@@ -1,0 +1,15 @@
+{
+  "name": "Gulp",
+  "version": "0.0.1",
+  "description": "Gulp exercises",
+  "main": "index.html",
+  "repository": {
+    "url": "https://github.com/AlejandroJSR7/Gulp.git",
+    "type": "git"
+  },
+  "author": "AlejandroJSR7 <AlejandroJSR7@Gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
