@@ -46,10 +46,6 @@ body {
 }
 a {
   color: $sun-flower;
-  text-decoration: none;
-  &:hover{
-    text-decoration: underline;
-  }
 }
 h1, h2, h3 {font-family: $f-Cinzel;}
 h1 {font-size: $size-title * 2;}
@@ -78,3 +74,4 @@ p {margin: 0 0 10px;}
 .txt-center{text-align: center;}
 .relevant{margin: 0 auto; width: 80%;}
 h1, h2, h3 {margin: 0 auto 5px; padding: 0;}
+a {text-decoration: none; &:hover{text-decoration: underline;}}
