@@ -1,0 +1,6 @@
+body{box-sizing: border-box; margin: 0;}
+p {margin: 0 0 10px;}
+.box{margin: 0 auto; width: 80%;}
+.txt-center{text-align: center;}
+h1, h2, h3 {margin: 0 auto 5px; padding: 0;}
+a {text-decoration: none; &:hover{text-decoration: underline;}}
