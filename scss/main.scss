@@ -1,5 +1,17 @@
-$color-bg: #34495e;
+$color-dark: #34495e;
+$color-white: #ffffff;
 
 body {
-  background-color: $color-bg;
+  background-color: $color-dark;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  & p {
+    color: $color-white;
+  }
+}
+a {
+  background: $color-white;
+  color: $color-dark;
+  display: inline-block;
+  padding: 2px 5px;
 }
