@@ -1,0 +1,28 @@
+//// NESTING
+header {
+  background-color: $white;
+  text-transform: uppercase;
+  nav { //header nav
+    ul { //header nav ul
+      margin: 0 auto;
+      text-align: center;
+      li { //header nav ul li
+        display: inline-block;
+        a { //header nav ul li a
+          color: $esmerald;
+          display: inline-block;
+          line-height: 150px;
+          padding: 0 35px;
+          text-decoration: none;
+          text-align: center;
+          &:hover { //header nav ul li a:::hover
+            background: $amethyst;
+            color: $white;
+            text-decoration: none;
+            box-shadow: inset 0 -5px 0 0 $clouds;
+          }
+        }
+      }
+    }
+  }
+}
