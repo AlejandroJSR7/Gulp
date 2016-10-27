@@ -13,10 +13,10 @@
     @include button($wet-asphalt, $white);
 }
 .button-blue {
-    @extend .button; //Siguiente Vídeo
+    @extend .button;
     @include button($blue, $white);
 }
 .button-orange {
-    @extend .button; //Siguiente Vídeo
+    @extend .button;
     @include button($orange, $white);
 }
