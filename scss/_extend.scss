@@ -1,0 +1,29 @@
+// SASS EXTEND EXAMPLE
+.alert {
+    background-color: $clouds;
+    color: $wet-asphalt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $f-Cinzel;
+    padding: 15px;
+}
+.alert--success {
+    @extend .alert;
+    background-color: $esmerald;
+    color: $white; 
+}
+.alert--info {
+    @extend .alert;
+    background-color: $blue;
+    color: $white; 
+}
+.alert--warning {
+    @extend .alert;
+    background-color: $sun-flower; 
+}
+.alert--error {
+    @extend .alert;
+    background-color: $orange;
+    color: $white; 
+}

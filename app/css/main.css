@@ -92,3 +92,33 @@ header {
           color: #ffffff;
           text-decoration: none;
           box-shadow: inset 0 -5px 0 0 #ecf0f1; }
+
+.alert, .alert--success, .alert--info, .alert--warning, .alert--error {
+  background-color: #ecf0f1;
+  color: #34495e;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cinzel", serif;
+  padding: 15px; }
+
+.alert--success {
+  background-color: #2ecc71;
+  color: #ffffff; }
+
+.alert--info {
+  background-color: #3498db;
+  color: #ffffff; }
+
+.alert--warning {
+  background-color: #f1c40f; }
+
+.alert--error {
+  background-color: #e74c3c;
+  color: #ffffff; }
