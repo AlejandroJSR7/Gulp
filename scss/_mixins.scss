@@ -1,0 +1,22 @@
+@mixin margen($vertical, $horizontal) {
+    margin: $vertical $horizontal;
+}
+@mixin padding($vertical, $horizontal) {
+    padding: $vertical $horizontal;
+}
+@mixin button($bg, $colortext) {
+    background: $bg;
+    color: $colortext;
+}
+
+.button {
+    @include button($wet-asphalt, $white);
+}
+.button-blue {
+    @extend .button; //Siguiente Vídeo
+    @include button($blue, $white);
+}
+.button-orange {
+    @extend .button; //Siguiente Vídeo
+    @include button($orange, $white);
+}

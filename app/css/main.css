@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Cinzel");
+.button, .button-blue, .button-orange {
+  background: #34495e;
+  color: #ffffff; }
+
+.button-blue {
+  background: #3498db;
+  color: #ffffff; }
+
+.button-orange {
+  background: #e74c3c;
+  color: #ffffff; }
+
 body {
   box-sizing: border-box;
   margin: 0; }
@@ -48,6 +60,17 @@ p {
 
 i {
   font-family: "Indie Flower", cursive; }
+
+.container {
+  color: #ffffff;
+  margin: 10px auto;
+  padding: 20px 20px;
+  width: 80%; }
+
+.button, .button-blue, .button-orange {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 15px; }
 
 header {
   background-color: #ffffff;
