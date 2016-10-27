@@ -22,3 +22,20 @@ i {font-family: $f-IndieFlower;}
   display: inline-block;
   @include padding(10px, 15px);
 }
+.fixhelper {
+  background: $white;
+  border: 1px solid $wet-asphalt;
+  font-size: 0.8em;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  width: auto;
+  a {
+    color: $wet-asphalt;
+    display: block;
+    line-height: 1em;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+}

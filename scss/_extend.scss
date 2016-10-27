@@ -7,6 +7,9 @@
     align-items: center;
     font-family: $f-Cinzel;
     padding: 15px;
+    a {
+        color: $wet-asphalt;
+    }
 }
 .alert--success {
     @extend .alert;
