@@ -122,3 +122,6 @@ header {
 .alert--error {
   background-color: #e74c3c;
   color: #ffffff; }
+
+.alert:hover, .alert--success:hover, .alert--info:hover, .alert--warning:hover, .alert--error:hover {
+  opacity: 0.6; }
