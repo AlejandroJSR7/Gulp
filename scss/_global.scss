@@ -11,3 +11,14 @@ h2 {font-size: $size-title;}
 h3 {font-size: $size-subtitle;}
 p {font-size: $size-normal;}
 i {font-family: $f-IndieFlower;}
+.container {
+    color: $white;
+    @include margen(10px, auto);
+    @include padding(20px, 20px);
+    width: 80%;
+}
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  @include padding(10px, 15px);
+}
