@@ -20,7 +20,8 @@ gulp.task('compress', function (cb) {
     pump([
         gulp.src('app/js/*.js'),
         uglify(),
-        gulp.dest('app/js/dist')
+        gulp.dest('app/js/dist'),
+        browserSync.stream()
     ],
     cb
   );
