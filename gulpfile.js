@@ -11,7 +11,10 @@ var browserSync = require('browser-sync').create();
 gulp.task('serve', ['html', 'css', 'javascript'], function() {
 
     browserSync.init({
-        server: "./app"
+        startPath : "./app" ,
+        server:{
+            baseDir: './'
+        }
     });
 
     gulp.watch("app/js/*.js", ['javascript']).on('change', browserSync.reload);
